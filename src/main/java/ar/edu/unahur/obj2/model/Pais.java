@@ -57,6 +57,10 @@ public class Pais {
         return area;
     }
 
+    public List<String> getLimites(){
+        return limites;
+    }
+
     @Override
     public String toString() {
         return "Pais [nombre=" + nombre + ", capital=" + capital + ", region=" + region + ", subRegion=" + subRegion
